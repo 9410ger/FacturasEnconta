@@ -16,6 +16,10 @@ $ cd /home/FacturasEnconta
  ```sh
 $ py main.py
 ```
+- Si hay algún error con la librería "requests", se ejecuta este comando para instalarlo
+ ```sh
+$ py -m pip install requests
+```
  - Cuando se accede al programa, se le pedirá al usuario 3 parámetros, el id, la fecha inicial y la fecha final, estas dos últimas en formato (YYYY-MM-DD), se coloca el valor y luego presionar ENTER para seguir.
  ```sh
 $ py main.py
